@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+   width: 100%;
+   min-height: 100vh;
+   background-image: linear-gradient(#04D4F0,#04ECF0);
+   background-size: cover;
+   background-position: center;
+   padding: 10px 8%;
+}
+
+nav{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    background-color: #059DC0;
+    background-size: cover;
+}
+.Portfolio{
+    font-size: 1.5rem;
+    color: darkcyan;
+}
+
+.logo{
+    width: 50px;
+    margin: 30px 0;
+}
+
+nav ul{
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding-right: 60px;
+}
+
+nav ul li{
+   display: inline-block;
+   margin: 10px 20px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: mediumseagreen;
+    font-size: 20px;
+}
+a{
+    background: #04ECF0;
+}
+nav ul li a:hover{
+    color: darkcyan;
+    background-color: cadetblue;
+}
+
+.content{
+    display: inline;
+    justify-content: center;
+    text-align: center;
+    outline: 2px solid seagreen;
+    outline-offset: 2px;
+    background-image: cyan,darkblue ;
+}
+.Me{
+    display: flex;
+    justify-content: center;
+    width:19%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px;
+}
+.AboutMeBox{
+    background-color: aqua;
+}
+
+.footer{
+    padding: 30px;
+    background-color: darkblue;
+    text-align: center;
+    color: seagreen;
+}
+
+h1{
+    text-align: center;
+}
+
+@media (max-width: 600px){
+   nav ul li{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+   }
+   .Portfolio{
+    text-align: center;
+   }
+
+   nav{
+    flex-direction: column;
+    align-items: flex-start;
+   }
+}

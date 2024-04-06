@@ -26,7 +26,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     padding: 10px 0;
-    background-color: #059DC0;
+    background-color: #000000;
     background-size: cover;
 }
 .Portfolio{
@@ -53,15 +53,16 @@ nav ul li{
 }
 nav ul li a{
     text-decoration: none;
-    color: mediumseagreen;
+    color: rgb(255, 255, 255);
     font-size: 20px;
+    background-color: #000000;
 }
 a{
     background: #04ECF0;
 }
 nav ul li a:hover{
-    color: darkcyan;
-    background-color: cadetblue;
+    color: rgb(105, 122, 218);
+    background-color: rgb(0, 0, 0);
 }
 
 .content{
@@ -71,6 +72,7 @@ nav ul li a:hover{
     outline: 2px solid seagreen;
     outline-offset: 2px;
     background-image: cyan,darkblue ;
+    background-image:url(../Assets/images/pexels-dana-tentis-370799.jpg);
 }
 .Me{
     display: flex;
@@ -93,6 +95,11 @@ nav ul li a:hover{
 
 h1{
     text-align: center;
+}
+#first img {
+    width: 500px;
+    display: block;
+    margin: 10px;
 }
 
 @media (max-width: 600px){

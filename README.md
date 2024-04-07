@@ -12,7 +12,9 @@ No Installation is neccicary just follow the link
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Screenshot 2024-04-06 202727](https://github.com/Ellie22302/probable-enigma/assets/146311968/27fca34c-de4f-4d3a-af5c-f32751ba16d2)
+
+![Screenshot 2024-04-06 202738](https://github.com/Ellie22302/probable-enigma/assets/146311968/1dcb6a79-4740-4db0-8c86-0613b40841fb)
 
 
 ## License
